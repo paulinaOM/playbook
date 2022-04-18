@@ -1,4 +1,4 @@
-const issue = {
+const pullRequest = {
     title: "Mi primer PR",
     author: "Paulina Otero",
     branchName: "main",
@@ -13,6 +13,6 @@ const issue = {
     }
 }
 
-console.log("Nombre del issue: " + issue.title)
-console.log(issue.getTitleAndAuthor())
-console.log(issue.getStatus())
+console.log("Nombre del issue: " + pullRequest.title)
+console.log(pullRequest.getTitleAndAuthor())
+console.log(pullRequest.getStatus())
